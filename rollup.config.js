@@ -59,7 +59,7 @@ export default {
 
 			// comment this out and it all works
 			postcss({
-				// extract: true, // Uncommenting this completely breaks everything - export default undefined!
+				extract: true, // Uncommenting this completely breaks everything - export default undefined!
 				plugins: postCSSPlugins
 			}),
 
